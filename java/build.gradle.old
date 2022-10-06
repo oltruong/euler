@@ -1,6 +1,6 @@
 plugins {
     id 'java-library'
-    id "com.gradle.build-scan" version "2.1"
+    id "com.gradle.enterprise" version "3.11.1"
 }
 
 buildScan {
@@ -8,8 +8,8 @@ buildScan {
     termsOfServiceAgree = 'yes'
 }
 
-sourceCompatibility = 1.11
-targetCompatibility = 1.11
+sourceCompatibility = 17
+targetCompatibility = 17
 
 group = 'com.oltruong'
 
