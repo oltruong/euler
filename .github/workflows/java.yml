@@ -1,9 +1,14 @@
 name: Java
 
-on: [ push ]
+on:
+  push:
+    paths:
+      - 'java/**'
+      - .github/workflows/java.yml
 
 jobs:
   build:
+    name: Test
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -16,7 +21,7 @@ jobs:
 
       - name: Gradle build
         working-directory: java
-        run: ./gradlew build --scan
+        run: ./gradlew build
         env:
           CI: true
 
