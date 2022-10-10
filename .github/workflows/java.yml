@@ -18,6 +18,7 @@ jobs:
         with:
           distribution: corretto
           java-version: 17
+          cache: gradle
 
       - name: Gradle build
         working-directory: java
