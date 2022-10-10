@@ -1,9 +1,14 @@
 name: Javascript
 
-on: [push]
+on:
+  push:
+    paths:
+      - 'javascript/**'
+      - .github/workflows/javascript.yml
 
 jobs:
   build:
+    name: Test
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
