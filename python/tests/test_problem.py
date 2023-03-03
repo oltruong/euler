@@ -1,11 +1,13 @@
 import pytest
 
 from problem1 import get_problem1
+from problem18 import get_problem18
 from problem2 import get_problem2
 from problem3 import get_problem3
 from problem4 import get_problem4
 from problem5 import get_problem5
 from problem6 import get_problem6
+from problem67 import get_problem67
 from problem7 import get_problem7
 from problem8 import get_problem8
 from problem9 import get_problem9
@@ -17,6 +19,7 @@ from problem14 import get_problem14
 from problem15 import get_problem15
 from problem16 import get_problem16
 from problem17 import get_problem17
+from problem18 import get_problem18
 
 test_data = [
     [get_problem1, 233_168],
@@ -36,6 +39,8 @@ test_data = [
     [get_problem15, 137_846_528_820],
     [get_problem16, 1_366],
     [get_problem17, 21_124],
+    [get_problem18, 1074],
+    [get_problem67, 7273],
 ]
 
 
