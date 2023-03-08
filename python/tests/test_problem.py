@@ -2,6 +2,7 @@ import pytest
 
 from problem1 import get_problem1
 from problem18 import get_problem18
+from problem19 import get_problem19
 from problem2 import get_problem2
 from problem3 import get_problem3
 from problem4 import get_problem4
@@ -40,6 +41,7 @@ test_data = [
     [get_problem16, 1_366],
     [get_problem17, 21_124],
     [get_problem18, 1074],
+    [get_problem19, 171],
     [get_problem67, 7273],
 ]
 
